@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>La hormiga viajera . Login</title>
 
 <!-- reset_browser.css Se usa para resetear los defaults del Browser  -->
     <link rel="stylesheet" href="css/reset_browser.css">
@@ -63,14 +63,13 @@
         Aside (Barra Lateral) 
 =================================================================
  -->
-    <aside class="sidebar">SIDEBAR
-       
+    <aside class="sidebar">       
         <ul>
             <li class="nav__item">
                 <a href="#" class="nav__link">Ofertas</a>
             </li>
             <li class="nav__item">
-                <a href="#" class="nav__link">Sucursales</a>
+                <a href="agencias.html" class="nav__link">Agencias</a>
             </li>
             <li class="nav__item">
                 <a href="#" class="nav__link">Nosotros</a>
@@ -94,26 +93,23 @@
  -->
     <article class="main">
         <div>
-            <figure>
-                <img src="./img/illustration.svg" class="main__img">
-            </figure>
     
             <div class="main__contact">
     
                 <h2 class="main__title">Hola!!!</h2>
                 <h6 class="main__paragraph">Bienvenido</h6>
     
-                <form class="main__form">
+                <form action="show_data.html" target="_blank" class="main__form">
     
-                    <input type="text" placeholder="Usuario" class="main__input">
+                    <input type="text" placeholder="Usuario" name="usuario" class="main__input">
     
-                    <input type="password" placeholder="Contraseña" class="main__input">
+                    <input type="password" placeholder="Contraseña" name="Password" class="main__input">
     
                     <input type="submit" value="Ingresar" class="main__input main__input--send">
     
                 </form>
     
-                <h6 class="main__paragraph">O ingrese con:</h6>
+                <h6 class="main__paragraph"><a href="#" class="nav__link">Registrese</a><br> o ingrese con:</h6>
     
                 <div class="main__social">
     
@@ -129,6 +125,11 @@
                         <img src="./img/facebook.svg" class="main__icon">
                     </a>
                 </div>
+
+                <figure>
+                    <img src="./img/illustration.svg" class="main__img">
+                </figure>
+    
             </div>
         </div>
     </article>
