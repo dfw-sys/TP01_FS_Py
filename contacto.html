@@ -96,7 +96,7 @@
             <div class="linea"></div>
         </div>
         <div class="formcontacto">
-            <form class="formulariocontacto" method="post">
+            <form  name= "formulariodecontacto" class="formulariocontacto" method="post">
                 <div>
                     <label for="nombre">Nombre:</label>
                     <input type="texto" id="nombre" name="nombre_usuario">
@@ -114,7 +114,7 @@
                     <textarea id="texto" name="texto_usuario"></textarea>
                 </div>
                 <div class="buttoncontacto">
-                    <button type="submit">Enviar</button>
+                    <input type="button" onclick="enviar()" value="Enviar">
                   </div>
             </form>
             </div>
@@ -171,6 +171,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="contacto.js"></script>
 </body>
 
 </html>
