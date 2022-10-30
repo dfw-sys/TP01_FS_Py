@@ -74,6 +74,7 @@ p a {
 /* Quitamos los puntos de los <li> */
 li {
   list-style-type: none;
+  margin-bottom: 20px;
 }
 
 /* Configuramos anclas suaves */
@@ -158,4 +159,13 @@ body {
   -webkit-font-smoothing: antialiased;
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+  font-weight: 500;
+}
+
+h1{
+  font-weight: 500;
+  color: white;
 }

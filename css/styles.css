@@ -48,7 +48,7 @@ body {
 ----------------------------------------------*/
 
 p::first-letter {
-    color: #160980;
+    color: #a69cf5;
     font-size: xx-large;
 }
 
@@ -267,6 +267,14 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.contenedor-imagenes-oferta {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .contenedor-imagenes .imagen {
     width: 45%;
     position: relative;
@@ -286,6 +294,50 @@ a:hover {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+
+.imagenoferta{
+    width: 40%;
+    
+position: relative;
+height: 200px;
+margin-bottom: 80px;
+/*     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+*/
+}
+
+.imagenoferta h4{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.imagenoferta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: solid 1px white;
+}
+
+#nosotros p{
+    font-weight: 500;
+    color: white;
+    width: 60%;
+}
+
+#nosotros img{
+    width: 50%;
+}
+
+
 
 .overlay {
     position: absolute;
@@ -366,7 +418,7 @@ a:hover {
     gap: 1.5em;
     padding: 3em .7em;
     text-align: center;
-    background-image: linear-gradient(to left, rgba(15, 106, 233, 0.95), rgba(2, 2, 2, 0.435));
+    background-image: linear-gradient(to left, rgba(155, 188, 235, 0.95), rgba(2, 2, 2, 0.435));
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -650,3 +702,80 @@ footer {
     }
 
 }
+
+/*Formulario Contacto*/
+
+.formulariocontacto {
+    
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  .formcontacto div + div {
+    margin-top: 1em;
+  }
+  
+  .formcontacto label {
+    
+    display: inline-block;
+    
+    text-align: right;
+    color: white;
+  }
+  
+  .formcontacto input, .formcontacto textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: white;
+  
+    
+    border: 1px solid #999;
+  }
+  
+  .formcontacto input:focus, .formcontacto textarea:focus {
+    
+    border-color: #000;
+  }
+  
+  .formcontacto textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .buttoncontacto {
+    
+    
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    width: 70px;
+    
+
+  }
+  
+  .formcontacto button {
+   
+    margin-left: .5em;
+  }
+
+  footer p{
+    color: white;
+    font-size: 20px;
+  }
+
+  .agencia{
+    color: white;
+    font-size: 15px;
+  }
+
+  .main__input{
+    color: white;
+  }
+
+  
+
+  
